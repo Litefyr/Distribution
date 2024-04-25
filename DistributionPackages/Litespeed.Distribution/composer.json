@@ -1,6 +1,6 @@
 {
   "name" : "litespeed/distribution",
-  "type" : "litespeed-base",
+  "type" : "neos-litespeed",
   "version": "1.0.0",
   "require" : {
     "litespeed/agora": "*",

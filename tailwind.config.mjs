@@ -1,4 +1,4 @@
-import config from "./Packages/Base/Base.Theme/Resources/Private/Tailwind";
+import config from "./Packages/Litespeed/Litespeed.Theme/Resources/Private/Tailwind";
 import content from "./Build/Carbon.Pipeline/content";
 import settings from "./tailwind.litespeed";
 
