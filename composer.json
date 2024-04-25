@@ -1,0 +1,40 @@
+{
+    "license": "proprietary",
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "neos/composer-plugin": true,
+            "cweagans/composer-patches": true,
+            "php-http/discovery": true
+        },
+        "platform": {
+            "php": "8.2"
+        }
+    },
+    "require": {
+        "php": "~8.2.0",
+        "neos/neos": "~8.3.0",
+        "james-heinrich/getid3": "^2.0-beta5",
+        "cweagans/composer-patches": "^1.7",
+        "litespeed/distribution": "*"
+    },
+    "scripts": {
+        "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "DistributionPackages/*",
+            "options": {
+                "reference": "none"
+            }
+        }
+    ],
+    "extra": {
+        "patches-file": "https://raw.githubusercontent.com/LitespeedProject/Patches/main/patches.json"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "litespeed/distribution",
+  "type" : "litespeed-base",
+  "version": "1.0.0",
+  "require" : {
+    "litespeed/agora": "*",
+    "litespeed/assetlist": "*",
+    "litespeed/blockquote": "*",
+    "litespeed/fullpagecache": "*",
+    "litespeed/map": "*",
+    "litespeed/papertiger": "*",
+    "litespeed/style": "*",
+    "litespeed/templates": "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Litespeed\\Distribution\\" : "Classes/"
+    }
+  }
+}

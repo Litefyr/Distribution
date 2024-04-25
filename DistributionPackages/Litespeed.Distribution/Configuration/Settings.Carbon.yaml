@@ -1,0 +1,11 @@
+Carbon:
+  IncludeAssets:
+    Packages:
+      'aa_Distribution':
+        Package: 'Litespeed.Distribution'
+        General:
+          Head:
+            - HeadTags.html
+        Live:
+          Head: HeadTagsLive.html
+          BodyStart: BodyTagsLive.html

@@ -1,0 +1,40 @@
+name: distribution
+type: php
+docroot: Web
+php_version: '8.2'
+webserver_type: nginx-fpm
+xdebug_enabled: false
+additional_hostnames: []
+additional_fqdns: []
+database:
+    type: mariadb
+    version: '10.11'
+use_dns_when_possible: true
+composer_version: '2'
+corepack_enable: true
+timezone: Europe/Berlin
+nodejs_version: '20'
+webimage_extra_packages: ['php8.2-vips']
+hooks:
+  post-composer:
+    - exec: ./flow flow:package:rescan >> /dev/null
+upload_dirs:
+  - '../Data/Persistent'
+  - '../Data/Temporary'
+  - '/_Resources'
+web_environment:
+  - MAILER_DSN=smtp://localhost:1025
+  - FLOW_CONTEXT=Development/ddev
+  - FLOW_REWRITEURLS=1
+  - FLOW_PATH_TEMPORARY_BASE=/tmp/neos
+  - FLOW_ROOTPATH=/var/www/html
+  - COMPOSER_MEMORY_LIMIT=-1
+  - COMPOSER_ROOT_VERSION=dev-main
+  - NEOS_DB_HOST=db
+  - NEOS_DB_NAME=db
+  - NEOS_DB_USER=db
+  - NEOS_DB_PASSWORD=db
+  - NEOS_DB_PORT=3306
+  - NEOS_DB_CHARSET=utf8mb4
+  - NEOS_DB_DRIVER=pdo_mysql
+  - NEOS_REDIS_ENDPOINT=redis

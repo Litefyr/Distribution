@@ -1,0 +1,23 @@
+packages:
+  - package: ../Packages/Litespeed/Litespeed.Presentation
+    folder:
+      input: Assets
+  - package: ../Packages/Litespeed/Litespeed.Presentation
+    folder:
+      input: Assets
+    files: Inline.ts
+    inline: true
+  - package: ../Packages/Litespeed/Litespeed.Blockquote
+    noErrorIfNotAvailable: true
+
+buildDefaults:
+  purge:
+    - DistributionPackages/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
+    - Packages/Litespeed/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
+    - Packages/Sites/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
+    - Data/CodePenStorage/**/*.html
+    - '!DistributionPackages/**/Private/**/node_modules'
+
+esbuild:
+  options:
+    splitting: true

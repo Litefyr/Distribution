@@ -1,0 +1,19 @@
+{
+  "overrides": [
+    {
+      "files": ["*.yaml", "*.yml"],
+      "options": {
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ["*.php"],
+      "options": {
+        "singleQuote": true
+    }
+    }
+  ],
+  "plugins": ["@prettier/plugin-php", "prettier-plugin-tailwindcss"],
+  "tailwindAttributes": ["attributes.class", "additionalClass"],
+  "tailwindFunctions": ["clsx", "Tailwind.merge", "afx"]
+}
