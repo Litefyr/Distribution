@@ -1,5 +1,6 @@
 {
-    "license": "proprietary",
+    "license": "GPL-3.0-or-later",
+    "type": "project",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin",
