@@ -37,7 +37,7 @@ jobs:
       - name: Delete old containers
         uses: snok/container-retention-policy@v2
         with:
-          image-names: litespeed-${{ needs.params.outputs.stack_name_lowercase }}/neos
+          image-names: blazing-${{ needs.params.outputs.stack_name_lowercase }}/neos
           cut-off: 'One week ago UTC'
           timestamp-to-use: updated_at
           # If you use this in a personal repository, set `account-type` to personal and delete `org-name`
@@ -51,7 +51,7 @@ jobs:
   build:
     name: Build files
     needs: params
-    uses: LitespeedProject/Workflows/.github/workflows/build.yaml@main
+    uses: BlazingRepos/Workflows/.github/workflows/build.yaml@main
     secrets: inherit
 
   docker:
@@ -59,6 +59,6 @@ jobs:
     needs:
       - params
       - build
-    uses: LitespeedProject/Workflows/.github/workflows/docker.yaml@main
+    uses: BlazingRepos/Workflows/.github/workflows/docker.yaml@main
     with:
-      tags: ghcr.io/${{ needs.params.outputs.repository_owner_lowercase }}/litespeed-${{ needs.params.outputs.stack_name_lowercase }}/neos:latest
+      tags: ghcr.io/${{ needs.params.outputs.repository_owner_lowercase }}/blazing-${{ needs.params.outputs.stack_name_lowercase }}/neos:latest

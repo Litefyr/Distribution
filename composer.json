@@ -18,7 +18,7 @@
         "neos/neos": "~8.3.0",
         "james-heinrich/getid3": "^2.0-beta5",
         "cweagans/composer-patches": "^1.7",
-        "litespeed/distribution": "*"
+        "blazing/distribution": "*"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
@@ -36,6 +36,6 @@
         }
     ],
     "extra": {
-        "patches-file": "https://raw.githubusercontent.com/LitespeedProject/Patches/main/patches.json"
+        "patches-file": "https://raw.githubusercontent.com/BlazingRepos/Patches/main/patches.json"
     }
 }

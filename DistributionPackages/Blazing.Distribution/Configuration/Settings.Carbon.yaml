@@ -2,7 +2,7 @@ Carbon:
   IncludeAssets:
     Packages:
       'aa_Distribution':
-        Package: 'Litespeed.Distribution'
+        Package: 'Blazing.Distribution'
         General:
           Head:
             - HeadTags.html
