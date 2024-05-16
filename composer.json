@@ -18,13 +18,29 @@
         "neos/neos": "~8.3.0",
         "james-heinrich/getid3": "^2.0-beta5",
         "cweagans/composer-patches": "^1.7",
-        "blazing/distribution": "*"
+        "litefyr/distribution": "*"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
-        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "flush": [
+            "php flow flow:cache:flush --force",
+            "php flow flow:package:rescan",
+            "until php flow doctrine:compileproxies; do sleep 1; done",
+            "php flow doctrine:migrate",
+            "php flow resource:publish",
+            "php flow startup:init"
+        ],
+        "cleanup:php": [
+            "rm -rf ./Data/Temporary/*",
+            "rm -rf ./Packages",
+            "rm -rf ./Build",
+            "rm -rf ./bin/*",
+            "@composer install --no-interaction"
+        ],
+        "lint": "phpstan analyse"
     },
     "repositories": [
         {
@@ -36,6 +52,6 @@
         }
     ],
     "extra": {
-        "patches-file": "https://raw.githubusercontent.com/BlazingRepos/Patches/main/patches.json"
+        "patches-file": "https://raw.githubusercontent.com/Litefyr/Patches/main/patches.json"
     }
 }

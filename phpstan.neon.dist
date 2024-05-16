@@ -1,0 +1,7 @@
+parameters:
+    level: 8
+    paths:
+        - DistributionPackages
+    excludePaths:
+        - DistributionPackages/Fork
+        - DistributionPackages/Packages/Mautic

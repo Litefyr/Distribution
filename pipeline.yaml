@@ -1,19 +1,19 @@
 packages:
-  - package: ../Packages/Blazing/Blazing.Presentation
+  - package: ../Packages/Litefyr/Litefyr.Presentation
     folder:
       input: Assets
-  - package: ../Packages/Blazing/Blazing.Presentation
+  - package: ../Packages/Litefyr/Litefyr.Presentation
     folder:
       input: Assets
     files: Inline.ts
     inline: true
-  - package: ../Packages/Blazing/Blazing.Blockquote
+  - package: ../Packages/Litefyr/Litefyr.Blockquote
     noErrorIfNotAvailable: true
 
 buildDefaults:
   purge:
     - DistributionPackages/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
-    - Packages/Blazing/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
+    - Packages/Litefyr/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
     - Packages/Sites/**/(Private|NodeTypes)/**/*.{fusion,html,js,jsx,ts,tsx,mjs,mjsx,mts,mtsx,cjs,cjsx,cts,ctsx,svelte,vue}
     - Data/CodePenStorage/**/*.html
     - '!DistributionPackages/**/Private/**/node_modules'

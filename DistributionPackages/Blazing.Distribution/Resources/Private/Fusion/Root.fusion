@@ -1,2 +1,0 @@
-include: **/*.fusion
-include: nodetypes://Blazing.Distribution/**/*.fusion

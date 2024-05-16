@@ -1,0 +1,8 @@
+# Rename this file to phpstan.neon and adjust the editorUrl to your needs
+
+includes:
+	- phpstan.neon.dist
+
+parameters:
+    # https://phpstan.org/user-guide/output-format#opening-file-in-an-editor
+    editorUrl: 'vscode://file/PATH/TO/YOUR/INSTALLATION/%%relFile%%:%%line%%'

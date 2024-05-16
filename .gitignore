@@ -15,6 +15,8 @@ node_modules
 .ddev/postgres
 .ddev/web-build
 
+/phpstan.neon
+!/phpstan.neon.example
 /*.txt
 /*.rst
 /flow

@@ -1,0 +1,2 @@
+include: **/*.fusion
+include: nodetypes://Litefyr.Distribution/**/*.fusion

@@ -17,7 +17,8 @@ nodejs_version: '20'
 webimage_extra_packages: ['php8.2-vips']
 hooks:
   post-composer:
-    - exec: ./flow flow:package:rescan >> /dev/null
+    - exec: php flow flow:package:rescan >> /dev/null
+    - exec: until php flow doctrine:compileproxies; do sleep 1; done
 upload_dirs:
   - '../Data/Persistent'
   - '../Data/Temporary'

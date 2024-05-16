@@ -2,4 +2,4 @@ Neos:
   Neos:
     fusion:
       autoInclude:
-        Blazing.Distribution: true
+        Litefyr.Distribution: true

@@ -1,8 +1,8 @@
 FROM oidagroup/neos:8.2-node20
 
-LABEL vendor="Oida Group"
+LABEL vendor="Litefyr"
 LABEL maintainer="David Spiola"
-LABEL org.opencontainers.image.description "Blazing - Themable Neos"
+LABEL org.opencontainers.image.description "Litefyr - Themable Neos"
 
 USER root
 

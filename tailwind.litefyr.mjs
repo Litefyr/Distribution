@@ -1,4 +1,4 @@
-// In this file you can override the settings from Blazing.Theme/Resources/Private/Tailwind/index.mjs
+// In this file you can override the settings from Litefyr.Tailwind/index.mjs
 
 export default {
     pluginSettings: {
