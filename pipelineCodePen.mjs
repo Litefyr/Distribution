@@ -10,5 +10,15 @@ fs.access(SOURCE, fs.F_OK, async (error) => {
         return;
     }
     const { buildTailwindConfig } = await import(SOURCE);
+
+    // Disable preflight
+    if (settings.corePlugins) {
+        settings.corePlugins.preflight = false;
+    } else {
+        settings.corePlugins = {
+            preflight: false,
+        };
+    }
+
     buildTailwindConfig(TARGET, TAILWIND_FILE, settings);
 });
