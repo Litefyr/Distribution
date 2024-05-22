@@ -52,7 +52,8 @@ jobs:
     name: Build files
     needs: params
     uses: Litefyr/Workflows/.github/workflows/build.yaml@main
-    secrets: inherit
+    secrets:
+      COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
 
   docker:
     name: Build Neos docker image
