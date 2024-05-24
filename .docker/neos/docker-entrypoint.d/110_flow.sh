@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Setup Flow"
+
 cd /data
 
 if [[ -f ./flow ]]; then
