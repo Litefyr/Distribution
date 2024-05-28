@@ -1,21 +1,25 @@
 name: distribution
 type: php
 docroot: Web
-php_version: '8.2'
+php_version: '8.1'
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
 database:
-    type: mariadb
-    version: '10.11'
+  type: mariadb
+  version: '10.11'
 use_dns_when_possible: true
 composer_version: '2'
 corepack_enable: true
 timezone: Europe/Berlin
-nodejs_version: '20'
-webimage_extra_packages: ['php8.2-vips']
+nodejs_version: '18'
+webimage_extra_packages: ['php8.1-vips']
 hooks:
+  post-start:
+    - exec: yes | corepack enable
+    - exec: pnpm config set node-linker hoisted
+    - exec: yes | pnpm install --prod
   post-composer:
     - exec: php flow flow:package:rescan >> /dev/null
     - exec: until php flow doctrine:compileproxies; do sleep 1; done
