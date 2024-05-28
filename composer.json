@@ -1,6 +1,7 @@
 {
     "license": "GPL-3.0-or-later",
     "type": "project",
+    "name": "litefyr/distribution",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin",
