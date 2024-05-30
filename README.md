@@ -5,7 +5,7 @@
 Create a project based on the [Litefyr] distribution
 
 ```bash
-composer create-project litefyr/distribution custom-folder
+composer create-project litefyr/project custom-folder
 ```
 
 Migrate database and add an admin user
