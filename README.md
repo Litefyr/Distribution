@@ -19,7 +19,7 @@ alternativly, you can also use this repository as an template.
 
 ## CSS and JS files
 
-Following files gets automatically included by [Litefyr.Presenation]:
+Following files gets automatically included by [Litefyr.Presentation]:
 
 | Filename     | Description                           | Imported by    |
 | ------------ | ------------------------------------- | -------------- |
@@ -29,7 +29,7 @@ Following files gets automatically included by [Litefyr.Presenation]:
 | `Main.pcss`  | Gets included into the Main CSS file  | [`Main.pcss`]  |
 
 [litefyr]: https://litefyr.io
-[litefyr.presenation]: http://github.com/Litefyr/Litefyr.Presentation
+[litefyr.presentation]: http://github.com/Litefyr/Litefyr.Presentation
 [`backend.ts`]: https://github.com/Litefyr/Litefyr.Presentation/blob/main/Resources/Private/Assets/Backend.ts
 [`inline.ts`]: https://github.com/Litefyr/Litefyr.Presentation/blob/main/Resources/Private/Assets/Inline.ts
 [`main.ts`]: https://github.com/Litefyr/Litefyr.Presentation/blob/main/Resources/Private/Assets/Main.ts
