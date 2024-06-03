@@ -15,5 +15,7 @@
   ],
   "plugins": ["@prettier/plugin-php", "prettier-plugin-tailwindcss"],
   "tailwindAttributes": ["attributes.class", "additionalClass"],
-  "tailwindFunctions": ["clsx", "Tailwind.merge", "afx"]
+  "tailwindFunctions": ["clsx", "Tailwind.merge", "afx"],
+  "tailwindPreserveDuplicates": true,
+  "tailwindPreserveWhitespace": true
 }
