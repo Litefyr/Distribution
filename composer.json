@@ -9,13 +9,10 @@
             "neos/composer-plugin": true,
             "cweagans/composer-patches": true,
             "php-http/discovery": true
-        },
-        "platform": {
-            "php": "8.1"
         }
     },
     "require": {
-        "php": "~8.1.0",
+        "php": "~8.*",
         "neos/neos": "~8.3.0",
         "james-heinrich/getid3": "^2.0-beta5",
         "cweagans/composer-patches": "^1.7",
