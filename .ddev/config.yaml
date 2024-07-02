@@ -1,7 +1,7 @@
 name: distribution
 type: php
 docroot: Web
-php_version: '8.1'
+php_version: '8.2'
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: []
@@ -13,8 +13,8 @@ use_dns_when_possible: true
 composer_version: '2'
 corepack_enable: true
 timezone: Europe/Berlin
-nodejs_version: '18'
-webimage_extra_packages: ['php8.1-vips']
+nodejs_version: '20'
+webimage_extra_packages: ['php8.2-vips']
 hooks:
   post-start:
     - exec: yes | corepack enable

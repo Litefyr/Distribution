@@ -1,4 +1,4 @@
-FROM davidspiola/neos:8.1-node18
+FROM oidagroup/neos-worker:8.2-20-alpine
 
 LABEL vendor="Litefyr"
 LABEL maintainer="David Spiola"
