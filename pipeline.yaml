@@ -7,6 +7,8 @@ packages:
       input: Assets
     files: Inline.ts
     inline: true
+  - package: ../Packages/Litefyr/Litefyr.PaperTiger
+    noErrorIfNotAvailable: true
   - package: ../Packages/Litefyr/Litefyr.Blockquote
     noErrorIfNotAvailable: true
 
