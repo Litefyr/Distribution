@@ -1,4 +1,4 @@
-.PHONY: environment prettier lint flush up down restart logs shell delete-dsstore upgrades deploy help synco-server synco-import synco-import-resources synco-import-db
+.PHONY: pnpm-update environment prettier lint flush up down restart logs shell delete-dsstore upgrades deploy help synco-server synco-import synco-import-resources synco-import-db
 
 ## Output envirmnent information
 environment:
@@ -58,6 +58,10 @@ upgrades:
 	git add *.lock package.json pnpm-lock.yaml
 	git commit -m "Upgrade: Update packages"
 	git push
+
+## Update to latest pnpm
+pnpm-update:
+	corepack use pnpm@latest
 
 ## Start Synco server
 synco-server:

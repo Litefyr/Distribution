@@ -14,11 +14,12 @@ fs.access(SOURCE, fs.F_OK, async (error) => {
     // Disable preflight
     if (settings.corePlugins) {
         settings.corePlugins.preflight = false;
+        settings.corePlugins.container = false;
     } else {
         settings.corePlugins = {
             preflight: false,
+            container: false,
         };
     }
-
     buildTailwindConfig(TARGET, TAILWIND_FILE, settings);
 });

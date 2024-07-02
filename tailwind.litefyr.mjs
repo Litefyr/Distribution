@@ -4,7 +4,6 @@ export default {
     pluginSettings: {
         contentDimensions: {},
         oklch: {},
-        forms: {},
     },
     theme: {
         extend: {
