@@ -12,45 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Get stack name from repository name
-      - id: stack_name
-        name: Stack name
-        run: echo "output=$(echo 'console.log("${{ github.repository }}".split(".").pop())' | node -)" >> $GITHUB_OUTPUT
-      - id: stack_name_lowercase
-        name: Lowercase stack name
-        run: echo "output=$(echo 'console.log("${{ github.repository }}".split(".").pop().toLowerCase())' | node -)" >> $GITHUB_OUTPUT
-      - id: repository_owner_lowercase
-        name: Lowercase owner name
-        run: echo "output=$(echo 'console.log("${{ github.repository_owner }}".toLowerCase())' | node -)" >> $GITHUB_OUTPUT
-
+      - id: params
+        name: Get parameter
+        run: |
+          echo "stack_name_lowercase=$(echo 'console.log("${{ github.repository }}".split(".").pop().toLowerCase())' | node -)" >> $GITHUB_OUTPUT
+          echo "repository_owner_lowercase=$(echo 'console.log("${{ github.repository_owner }}".toLowerCase())' | node -)" >> $GITHUB_OUTPUT
     outputs:
-      stack_name: ${{ steps.stack_name.outputs.output }}
-      stack_name_lowercase: ${{ steps.stack_name_lowercase.outputs.output }}
-      repository_owner_lowercase: ${{ steps.repository_owner_lowercase.outputs.output }}
-
-  cleanup:
-    name: Cleanup
-    needs: params
-    runs-on: ubuntu-latest
-    steps:
-      - name: Delete old workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-      - name: Delete old containers
-        uses: snok/container-retention-policy@v2
-        with:
-          image-names: litefyr-${{ needs.params.outputs.stack_name_lowercase }}/neos
-          cut-off: 'One week ago UTC'
-          timestamp-to-use: updated_at
-          # If you use this in a personal repository, set `account-type` to personal and delete `org-name`
-          account-type: org
-          org-name: ${{ github.repository_owner }}
-          keep-at-least: 6
-          skip-tags: latest
-          token: ${{ secrets.GITHUB_TOKEN }}
-          token-type: github-token
+      stack_name_lowercase: ${{ steps.params.outputs.stack_name_lowercase }}
+      repository_owner_lowercase: ${{ steps.params.outputs.repository_owner_lowercase }}
 
   build:
     name: Build files
-    needs: params
     uses: Litefyr/Workflows/.github/workflows/build.yaml@main
     secrets:
       COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}

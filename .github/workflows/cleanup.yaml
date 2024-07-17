@@ -1,0 +1,42 @@
+name: 'Cleanup old containers and workflow runs'
+
+concurrency: cleanup
+
+on:
+  workflow_dispatch:
+  # Run at 00:00 on Monday..
+  schedule:
+    - cron: '0 0 * * MON'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+    steps:
+      - id: params
+        name: Get parameter
+        run: echo "stack_name_lowercase=$(echo 'console.log("${{ github.repository }}".split(".").pop().toLowerCase())' | node -)" >> $GITHUB_OUTPUT
+
+      - name: Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 7
+          keep_minimum_runs: 6
+
+      - name: Delete old containers
+        uses: snok/container-retention-policy@v2
+        with:
+          image-names: litefyr-${{ steps.params.outputs.stack_name_lowercase }}*
+          cut-off: 'One week ago UTC'
+          timestamp-to-use: updated_at
+          account-type: org
+          org-name: OidaGroup
+          keep-at-least: 6
+          skip-tags: latest
+          # https://github.com/snok/container-retention-policy/blob/v2/README.md#token
+          token: ${{ secrets.PAT_PACKAGE_REGISTRY }}
+          token-type: pat

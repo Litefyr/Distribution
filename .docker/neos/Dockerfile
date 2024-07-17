@@ -7,15 +7,13 @@ LABEL org.opencontainers.image.description="Litefyr - Themable Neos"
 USER root
 
 COPY ../ /data
-COPY ../.docker/neos/docker-entrypoint.d /docker-entrypoint.d
-
+ENV ENTRYPOINT_PATH=/data/.docker/neos/docker-entrypoint.d
 ENV PHP_TIMEZONE="Europe/Vienna"
 
 # Configure PHP
 RUN /usr/local/sbin/configure-php.sh
 
 RUN chown -R docker:docker /data
-RUN chown -R docker:docker /docker-entrypoint.d
 
 USER docker:docker
 
