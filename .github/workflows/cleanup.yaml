@@ -33,8 +33,9 @@ jobs:
           image-names: litefyr-${{ steps.params.outputs.stack_name_lowercase }}*
           cut-off: 'One week ago UTC'
           timestamp-to-use: updated_at
-          account-type: org
-          org-name: OidaGroup
+          # https://github.com/snok/container-retention-policy/blob/v2/README.md#account-type
+          account-type: personal
+          # org-name: YOUR_ORG_NAME
           keep-at-least: 6
           skip-tags: latest
           # https://github.com/snok/container-retention-policy/blob/v2/README.md#token
