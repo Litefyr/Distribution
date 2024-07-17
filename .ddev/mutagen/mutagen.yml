@@ -8,23 +8,23 @@
 # https://mutagen.io/documentation/introduction/configuration
 sync:
   defaults:
-    mode: "two-way-resolved"
-    stageMode: "neighboring"
+    mode: 'two-way-resolved'
+    stageMode: 'neighboring'
     ignore:
       paths:
         # The top-level .git directory is ignored because where possible it's
         # mounted into the container with a traditional docker bind-mount
-        - "/.git"
-        - "/.tarballs"
-        - "/.ddev/db_snapshots"
-        - "/.ddev/.importdb*"
-        - ".DS_Store"
-        - ".idea"
-        - ".vscode"
-        - "node_modules"
-        - "/Data/Persistent"
-        - "/Data/Temporary"
-        - "/Web/_Resources"
+        - '/.git'
+        - '/.tarballs'
+        - '/.ddev/db_snapshots'
+        - '/.ddev/.importdb*'
+        - '.DS_Store'
+        - '.idea'
+        - '.vscode'
+        - 'node_modules'
+        - '/Data/Persistent'
+        - '/Data/Temporary'
+        - '/Web/_Resources'
 
         # You can also exclude other directories from mutagen-syncing
         # For example /var/www/html/var does not need to sync in TYPO3
@@ -34,4 +34,4 @@ sync:
         # composer operations may fail if they use dev versions/git.
         # vcs: true
     symlink:
-      mode: "posix-raw"
+      mode: 'posix-raw'
