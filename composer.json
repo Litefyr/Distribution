@@ -16,7 +16,8 @@
         "neos/neos": "~8.3.0",
         "james-heinrich/getid3": "^2.0-beta5",
         "cweagans/composer-patches": "^1.7",
-        "litefyr/distribution": "*"
+        "litefyr/distribution": "*",
+        "litefyr/migrations": "*"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
