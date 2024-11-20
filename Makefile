@@ -10,7 +10,7 @@ environment:
 
 ## Prettier files
 prettier:
-	@pnpm prettier --configFile=Build/Litefyr.Tailwind/Pipeline/Website.yaml --write --no-error-on-unmatched-pattern 'DistributionPackages/**/*.{js,ts,mjs,mts,php,yaml,pcss,md}'
+	@pnpm prettier --write --no-error-on-unmatched-pattern 'DistributionPackages/**/*.{js,ts,mjs,mts,php,yaml,pcss,md}'
 
 ## Lint files
 lint:
