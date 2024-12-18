@@ -47,7 +47,6 @@
     "@alpinejs/persist": "^3.14.3",
     "@floating-ui/dom": "^1.6.12",
     "@imacrayon/alpine-ajax": "^0.10.5",
-    "@marcreichel/alpine-typewriter": "^1.2.0",
     "@prettier/plugin-php": "^0.22.2",
     "@ryangjchandler/alpine-clipboard": "^2.3.0",
     "alpinejs": "^3.14.3",
