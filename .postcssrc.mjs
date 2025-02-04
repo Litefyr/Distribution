@@ -14,7 +14,6 @@ export default function (ctx) {
             },
             "postcss-clip-path-polyfill": true,
             "postcss-sort-media-queries": true,
-            "@thedutchcoder/postcss-rem-to-px": ctx.remToPx || false,
             autoprefixer: true,
             cssnano: ctx.minify
                 ? {
