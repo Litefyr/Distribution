@@ -14,7 +14,7 @@ composer_version: '2'
 corepack_enable: true
 timezone: Europe/Berlin
 nodejs_version: '22'
-webimage_extra_packages: ['php8.3-vips']
+webimage_extra_packages: ['php${DDEV_PHP_VERSION}-vips']
 hooks:
   post-start:
     - exec: yes | corepack enable
