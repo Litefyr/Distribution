@@ -6,7 +6,6 @@ export default function (ctx) {
             },
             "tailwindcss/nesting": true,
             tailwindcss: ctx.tailwindcss,
-            "postcss-clip-path-polyfill": true,
             "postcss-sort-media-queries": true,
             autoprefixer: true,
             cssnano: ctx.minify

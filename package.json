@@ -32,7 +32,6 @@
     "colorjs.io": "^0.5.2",
     "cssnano": "^7.0.6",
     "postcss": "^8.4.49",
-    "postcss-clip-path-polyfill": "~1.1.0",
     "postcss-import": "^16.1.0",
     "postcss-reporter": "^7.1.0",
     "postcss-sort-media-queries": "^5.2.0",
