@@ -5,11 +5,15 @@
   "require" : {
     "litefyr/agora": "*",
     "litefyr/assetlist": "*",
+    "litefyr/audio": "*",
     "litefyr/blockquote": "*",
     "litefyr/map": "*",
     "litefyr/papertiger": "*",
     "litefyr/style": "*",
-    "litefyr/templates": "*"
+    "litefyr/templates": "*",
+    "litefyr/video": "*",
+    "litefyr/videoplatforms": "*",
+    "litefyr/videostreaming": "*"
   },
   "autoload" : {
     "psr-4" : {
