@@ -45,7 +45,7 @@
     "@alpinejs/persist": "^3.14.9",
     "@floating-ui/dom": "^1.7.0",
     "@imacrayon/alpine-ajax": "^0.12.2",
-    "@prettier/plugin-php": "^0.22.4",
+    "@prettier/plugin-php": "^0.24.0",
     "@ryangjchandler/alpine-clipboard": "^2.3.0",
     "alpinejs": "^3.14.9",
     "alpinejs-textarea-grow": "^1.0.5",
