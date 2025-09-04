@@ -50,16 +50,16 @@ importers:
     devDependencies:
       '@alpinejs/collapse':
         specifier: ^3.14.9
-        version: 3.14.9
+        version: 3.15.0
       '@alpinejs/focus':
         specifier: ^3.14.9
-        version: 3.14.9
+        version: 3.15.0
       '@alpinejs/intersect':
         specifier: ^3.14.9
-        version: 3.14.9
+        version: 3.15.0
       '@alpinejs/persist':
-        specifier: ^3.14.9
-        version: 3.14.9
+        specifier: ^3.15.0
+        version: 3.15.0
       '@floating-ui/dom':
         specifier: ^1.7.4
         version: 1.7.4
@@ -74,7 +74,7 @@ importers:
         version: 2.3.0
       alpinejs:
         specifier: ^3.14.9
-        version: 3.14.9
+        version: 3.15.0
       alpinejs-textarea-grow:
         specifier: ^1.0.5
         version: 1.0.5
@@ -127,17 +127,17 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  '@alpinejs/collapse@3.14.9':
-    resolution: {integrity: sha512-cUjbBVo4KR/CfFg0cLB+Q7a8SnjmD4MdxmtZvFjh25Dlf/ZWYPSPx/28b+aAykuX/SUoDPQRmdFiVVvq+iILHw==}
+  '@alpinejs/collapse@3.15.0':
+    resolution: {integrity: sha512-RREZVE67/2E7rDZIxw3B5BGAFBm1x/16+3jeyjj+Fky4wPBqnhGCQZujkiggrOmdU6mcZPixYxkKFlhKfQMAXw==}
 
-  '@alpinejs/focus@3.14.9':
-    resolution: {integrity: sha512-+OMOcdkyEUr3gYWD0ZVqojLotI9D67F5BxGesDfZcPaGtNifXMoq0vt0UVDivGnXQXosOfNpO++GF4NzGrWE9Q==}
+  '@alpinejs/focus@3.15.0':
+    resolution: {integrity: sha512-Cm9vop09oNFw7T9SEBcfijrTdSN1aBNHK3cN4mB52eKvi9z5pa+xcyN+6S3FmZ44MR/u81JXa6hi5CjX1iy6dA==}
 
-  '@alpinejs/intersect@3.14.9':
-    resolution: {integrity: sha512-6LLIqrESA5kxuTbDJshtItfHmZoiiDOpf8lOeRrNtYjSj/FkggDpnjD+ZFGF5btEOVSpWic2VmG2BejR/aMxDw==}
+  '@alpinejs/intersect@3.15.0':
+    resolution: {integrity: sha512-K9ax9F4u0iQbWIlR1TFeXYmHN20n6fWyfCt/GlDb0qCEwRITOmd3xF7uZDAB706OgImIJBLulC5DSEcfrNNCWw==}
 
-  '@alpinejs/persist@3.14.9':
-    resolution: {integrity: sha512-Td9hWEUtFFguYCRjXhq06sDultW21wXUnVro7YWJm+vjGu/nV/v3hepOXyYVjkGvH/F+zjx5UkzWXXzr3UiQ/w==}
+  '@alpinejs/persist@3.15.0':
+    resolution: {integrity: sha512-SmW1DWn9FRflfPqZZtpTq+2uXDq/ohbSiKmYg6HXX1UxQnsaSkTT0HT72SQcbqOC3WmIUF28CberBnwiWoqmpw==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -560,8 +560,8 @@ packages:
   alpinejs-textarea-grow@1.0.5:
     resolution: {integrity: sha512-BO6XBg97plE5c04s7FXqwBmpGfGLIrCe+xJq8cDhU6aXeWLvbJQGnzJp+OX76YzWJ8Sc2d+/Y9f3vjs8/KXqag==}
 
-  alpinejs@3.14.9:
-    resolution: {integrity: sha512-gqSOhTEyryU9FhviNqiHBHzgjkvtukq9tevew29fTj+ofZtfsYriw4zPirHHOAy9bw8QoL3WGhyk7QqCh5AYlw==}
+  alpinejs@3.15.0:
+    resolution: {integrity: sha512-lpokA5okCF1BKh10LG8YjqhfpxyHBk4gE7boIgVHltJzYoM7O9nK3M7VlntLEJGsVmu7U/RzUWajmHREGT38Eg==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -1991,16 +1991,16 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@alpinejs/collapse@3.14.9': {}
+  '@alpinejs/collapse@3.15.0': {}
 
-  '@alpinejs/focus@3.14.9':
+  '@alpinejs/focus@3.15.0':
     dependencies:
       focus-trap: 6.9.4
       tabbable: 5.3.3
 
-  '@alpinejs/intersect@3.14.9': {}
+  '@alpinejs/intersect@3.15.0': {}
 
-  '@alpinejs/persist@3.14.9': {}
+  '@alpinejs/persist@3.15.0': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2372,7 +2372,7 @@ snapshots:
 
   alpinejs-textarea-grow@1.0.5: {}
 
-  alpinejs@3.14.9:
+  alpinejs@3.15.0:
     dependencies:
       '@vue/reactivity': 3.1.5
 
