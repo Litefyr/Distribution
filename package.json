@@ -62,6 +62,6 @@
     "rough-notation": "^0.5.1",
     "stylelint": "^16.25.0",
     "stylelint-config-standard": "^39.0.0",
-    "typescript-eslint": "^8.44.1"
+    "typescript-eslint": "^8.46.1"
   }
 }
