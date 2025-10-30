@@ -30,7 +30,7 @@
     "autoprefixer": "^10.4.21",
     "carbon-pipeline": "^0.2.1",
     "colorjs.io": "^0.5.2",
-    "cssnano": "^7.1.1",
+    "cssnano": "^7.1.2",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
     "postcss-reporter": "^7.1.0",
