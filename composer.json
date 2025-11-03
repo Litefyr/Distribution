@@ -15,7 +15,7 @@
         "php": "^8.3.0",
         "neos/neos": "~8.3.0",
         "james-heinrich/getid3": "^2.0-beta6",
-        "cweagans/composer-patches": "^1.7",
+        "cweagans/composer-patches": "^2.0",
         "litefyr/distribution": "*",
         "litefyr/migrations": "*"
     },
