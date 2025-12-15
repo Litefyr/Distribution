@@ -27,7 +27,7 @@
     "@domchristie/tailwind-utopia": "^1.1.1",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.19",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.23",
     "carbon-pipeline": "^0.2.1",
     "colorjs.io": "^0.5.2",
     "cssnano": "^7.1.2",
