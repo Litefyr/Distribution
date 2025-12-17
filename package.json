@@ -42,7 +42,7 @@
     "@alpinejs/collapse": "^3.14.9",
     "@alpinejs/focus": "^3.14.9",
     "@alpinejs/intersect": "^3.15.2",
-    "@alpinejs/persist": "^3.14.9",
+    "@alpinejs/persist": "^3.15.3",
     "@floating-ui/dom": "^1.7.4",
     "@imacrayon/alpine-ajax": "^0.12.2",
     "@prettier/plugin-php": "^0.24.0",
