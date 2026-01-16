@@ -24,8 +24,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)
       colorjs.io:
-        specifier: ^0.5.2
-        version: 0.5.2
+        specifier: ^0.6.1
+        version: 0.6.1
       cssnano:
         specifier: ^7.1.2
         version: 7.1.2(postcss@8.5.6)
@@ -706,8 +706,8 @@ packages:
   colord@2.9.3:
     resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
 
-  colorjs.io@0.5.2:
-    resolution: {integrity: sha512-twmVoizEW7ylZSN32OgKdXRmo1qg+wT5/6C3xu5b9QsWzSFAhHLn2xd8ro0diCsKfCj1RdaTP/nrcW+vAoQPIw==}
+  colorjs.io@0.6.1:
+    resolution: {integrity: sha512-8lyR2wHzuIykCpqHKgluGsqQi5iDm3/a2IgP2GBZrasn2sBRkE4NOGsglZxWLs/jZQoNkmA/KM/8NV16rLUdBg==}
 
   colors@1.4.0:
     resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
@@ -2558,7 +2558,7 @@ snapshots:
 
   colord@2.9.3: {}
 
-  colorjs.io@0.5.2: {}
+  colorjs.io@0.6.1: {}
 
   colors@1.4.0: {}
 
