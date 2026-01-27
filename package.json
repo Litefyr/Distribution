@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "autoprefixer": "^10.4.23",
     "carbon-pipeline": "^0.2.1",
-    "colorjs.io": "^0.5.2",
+    "colorjs.io": "^0.6.1",
     "cssnano": "^7.1.2",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
