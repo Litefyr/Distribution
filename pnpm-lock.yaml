@@ -19,7 +19,7 @@ importers:
         version: 0.5.19(tailwindcss@3.4.19(yaml@2.8.0))
       autoprefixer:
         specifier: ^10.4.23
-        version: 10.4.23(postcss@8.5.6)
+        version: 10.4.24(postcss@8.5.6)
       carbon-pipeline:
         specifier: ^0.2.1
         version: 0.2.1(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)
@@ -50,16 +50,16 @@ importers:
     devDependencies:
       '@alpinejs/collapse':
         specifier: ^3.14.9
-        version: 3.15.5
+        version: 3.15.6
       '@alpinejs/focus':
         specifier: ^3.14.9
-        version: 3.15.5
+        version: 3.15.6
       '@alpinejs/intersect':
         specifier: ^3.15.4
-        version: 3.15.5
+        version: 3.15.6
       '@alpinejs/persist':
         specifier: ^3.15.5
-        version: 3.15.5
+        version: 3.15.6
       '@floating-ui/dom':
         specifier: ^1.7.5
         version: 1.7.5
@@ -73,8 +73,8 @@ importers:
         specifier: ^2.3.0
         version: 2.3.0
       alpinejs:
-        specifier: ^3.15.3
-        version: 3.15.5
+        specifier: ^3.15.6
+        version: 3.15.6
       alpinejs-textarea-grow:
         specifier: ^1.0.5
         version: 1.0.5
@@ -95,7 +95,7 @@ importers:
         version: 5.5.5(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@1.21.7)))(eslint@9.39.2(jiti@1.21.7))(prettier@3.8.1)
       globals:
         specifier: ^17.1.0
-        version: 17.2.0
+        version: 17.3.0
       lazysizes:
         specifier: ^5.3.2
         version: 5.3.2
@@ -127,17 +127,17 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  '@alpinejs/collapse@3.15.5':
-    resolution: {integrity: sha512-vKXl/AC5kuy0LcZwElFwk4cZxxbl/DcqJRJOJmNZkQdT6CVLCwgl86ZyDL3crN1ECmVrYbQpKGHahC7ze1VJ4A==}
+  '@alpinejs/collapse@3.15.6':
+    resolution: {integrity: sha512-qt7kD7UhgnI9C0LIA/jKLqlgdDcNQOn9khKfPYk+NEMfrivtEBO9dFjdT5dHZwnJqiIfZFnmF5qwCjQmoKkPGA==}
 
-  '@alpinejs/focus@3.15.5':
-    resolution: {integrity: sha512-5HHI1HBFzl3Ac4QoZxRUgWkEopLPNOebYGV1PH388sO4WcbhBkY4N0AMVRo2N/A6fw2V6Au4T7jU5d4p1F3ztw==}
+  '@alpinejs/focus@3.15.6':
+    resolution: {integrity: sha512-X/FegvO3i5/svT5S1BuREf4wpGMGC3s9TpVIzijK7qV6mhEywMpbh5+QcMntcY8aUU0yyDGbBLv/4n8BaUDybQ==}
 
-  '@alpinejs/intersect@3.15.5':
-    resolution: {integrity: sha512-O4Xq4RZE5JFQ1zLxfKkQsgmkMKs2YZ5FDW62bjVtK8t06F3/gq6VTT7RQiCIF+HN3Tv6paCyAvxo2K7CjqYgQw==}
+  '@alpinejs/intersect@3.15.6':
+    resolution: {integrity: sha512-/iD/ANpShZ1mLmRTOkq3/qtnWo+ihP4OiRSLuC+OBBHDSyS/+9CBSO2Pgxzy+zxPW674Laho09sLgZOAqUsLQw==}
 
-  '@alpinejs/persist@3.15.5':
-    resolution: {integrity: sha512-COUYM1ji0tvWkj4jL0Ov7vI8jgenzm6V9l7cWuKlLpkCjuXpP6opwubkc319hjhT+CKQZMA5HvrsJIqaC0/0sQ==}
+  '@alpinejs/persist@3.15.6':
+    resolution: {integrity: sha512-gjjqSdIgFO/mbvlyW1C5JO6EhWNPsPacQQY9HC0Exizq/NEUZOEYxRkTpq5dx9JkI5oyK8lEw+f1vJ/3TK18Fg==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -574,8 +574,8 @@ packages:
   alpinejs-textarea-grow@1.0.5:
     resolution: {integrity: sha512-BO6XBg97plE5c04s7FXqwBmpGfGLIrCe+xJq8cDhU6aXeWLvbJQGnzJp+OX76YzWJ8Sc2d+/Y9f3vjs8/KXqag==}
 
-  alpinejs@3.15.5:
-    resolution: {integrity: sha512-l1R4em/uCUr7eJimcO/b0L1+H2tVcB1Y7cQ3d+pzwVnv0zWs7gw4MhwdsLjfLccWV2iH0ahlfaJWitNRFOZdvQ==}
+  alpinejs@3.15.6:
+    resolution: {integrity: sha512-ETE0k88xU74URryk2JyvmrvyCyZG0Wo+2/tZux9gEvaPc/k5XcBSdvFHyW76puIFqhD+nHgeO/5j3pRRsHh6HA==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -614,8 +614,8 @@ packages:
     resolution: {integrity: sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==}
     engines: {node: '>=8'}
 
-  autoprefixer@10.4.23:
-    resolution: {integrity: sha512-YYTXSFulfwytnjAPlw8QHncHJmlvFKtczb8InXaAx9Q0LbfDnfEYDE55omerIJKihhmU61Ft+cAOSzQVaBUmeA==}
+  autoprefixer@10.4.24:
+    resolution: {integrity: sha512-uHZg7N9ULTVbutaIsDRoUkoS8/h3bdsmVJYZ5l3wv8Cp/6UIIoRDm90hZ+BwxUj/hGBEzLxdHNSKuFpn8WOyZw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -674,6 +674,9 @@ packages:
 
   caniuse-lite@1.0.30001760:
     resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
+
+  caniuse-lite@1.0.30001766:
+    resolution: {integrity: sha512-4C0lfJ0/YPjJQHagaE9x2Elb69CIqEPZeG0anQt9SIvIoOH4a4uaRl73IavyO+0qZh6MDLH//DrXThEYKHkmYA==}
 
   carbon-pipeline@0.2.1:
     resolution: {integrity: sha512-Bdbpq0mK0VcBFkrdwLYw4Alhiwhjurx/y8oB4Px8+vCRkaQbS2ihFwZhDTRwmawSFxHK6cT3QPQsFhe2HM8noQ==}
@@ -1045,8 +1048,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@17.2.0:
-    resolution: {integrity: sha512-tovnCz/fEq+Ripoq+p/gN1u7l6A7wwkoBT9pRCzTHzsD/LvADIzXZdjmRymh5Ztf0DYC3Rwg5cZRYjxzBmzbWg==}
+  globals@17.3.0:
+    resolution: {integrity: sha512-yMqGUQVVCkD4tqjOJf3TnrvaaHDMYp4VlUSObbkIiuCPe/ofdMBFIAcBbCSRFWOnos6qRiTVStDwqPLUclaxIw==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -2008,16 +2011,16 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@alpinejs/collapse@3.15.5': {}
+  '@alpinejs/collapse@3.15.6': {}
 
-  '@alpinejs/focus@3.15.5':
+  '@alpinejs/focus@3.15.6':
     dependencies:
       focus-trap: 6.9.4
       tabbable: 5.3.3
 
-  '@alpinejs/intersect@3.15.5': {}
+  '@alpinejs/intersect@3.15.6': {}
 
-  '@alpinejs/persist@3.15.5': {}
+  '@alpinejs/persist@3.15.6': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2406,7 +2409,7 @@ snapshots:
 
   alpinejs-textarea-grow@1.0.5: {}
 
-  alpinejs@3.15.5:
+  alpinejs@3.15.6:
     dependencies:
       '@vue/reactivity': 3.1.5
 
@@ -2435,10 +2438,10 @@ snapshots:
 
   astral-regex@2.0.0: {}
 
-  autoprefixer@10.4.23(postcss@8.5.6):
+  autoprefixer@10.4.24(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
-      caniuse-lite: 1.0.30001760
+      caniuse-lite: 1.0.30001766
       fraction.js: 5.3.4
       picocolors: 1.1.1
       postcss: 8.5.6
@@ -2477,7 +2480,7 @@ snapshots:
   browserslist@4.28.1:
     dependencies:
       baseline-browser-mapping: 2.9.7
-      caniuse-lite: 1.0.30001760
+      caniuse-lite: 1.0.30001766
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
       update-browserslist-db: 1.2.2(browserslist@4.28.1)
@@ -2497,11 +2500,13 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.28.1
-      caniuse-lite: 1.0.30001760
+      caniuse-lite: 1.0.30001766
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001760: {}
+
+  caniuse-lite@1.0.30001766: {}
 
   carbon-pipeline@0.2.1(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0):
     dependencies:
@@ -2945,7 +2950,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@17.2.0: {}
+  globals@17.3.0: {}
 
   globby@11.1.0:
     dependencies:
