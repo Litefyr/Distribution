@@ -39,8 +39,8 @@ importers:
         specifier: ^7.1.0
         version: 7.1.0(postcss@8.5.8)
       postcss-sort-media-queries:
-        specifier: ^6.1.0
-        version: 6.1.0(postcss@8.5.8)
+        specifier: ^6.2.2
+        version: 6.2.2(postcss@8.5.8)
       tailwindcss:
         specifier: 3.4.19
         version: 3.4.19(yaml@2.8.0)
@@ -1523,9 +1523,9 @@ packages:
     resolution: {integrity: sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==}
     engines: {node: '>=4'}
 
-  postcss-sort-media-queries@6.1.0:
-    resolution: {integrity: sha512-kxMvbeXdSrXK7bFOPUb5n1lu9m4OhwK9oKfQO0nzUWAyw7671gt2RPNI5GKJG69MT+eLyav4MVjmgnBfzBJLww==}
-    engines: {node: '>=22.0.0'}
+  postcss-sort-media-queries@6.2.2:
+    resolution: {integrity: sha512-rC+LySfkfX1Y4ZxNsHVYJR4vDJ8t5jydR8VYXlZeJZ3Q2451gHNCQ0REixGRL1dCtF8AnQPdqWSpVnQXiRkpOw==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       postcss: ^8.5.6
 
@@ -3230,7 +3230,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-sort-media-queries@6.1.0(postcss@8.5.8):
+  postcss-sort-media-queries@6.2.2(postcss@8.5.8):
     dependencies:
       postcss: 8.5.8
       sort-css-media-queries: 3.0.1
