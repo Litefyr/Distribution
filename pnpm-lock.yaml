@@ -64,8 +64,8 @@ importers:
         specifier: ^1.7.6
         version: 1.7.6
       '@imacrayon/alpine-ajax':
-        specifier: ^0.12.2
-        version: 0.12.6
+        specifier: ^0.12.7
+        version: 0.12.7
       '@prettier/plugin-php':
         specifier: ^0.24.0
         version: 0.24.0(prettier@3.8.1)
@@ -399,8 +399,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@imacrayon/alpine-ajax@0.12.6':
-    resolution: {integrity: sha512-Cu4Qh+C3m+TXhzSCqnKLqd5zR/RsliE/8KpNash21hh/ZJgUrRgsdtwpOSPWY4hIYOocjvy3ellvfvujXkBnnQ==}
+  '@imacrayon/alpine-ajax@0.12.7':
+    resolution: {integrity: sha512-txpLA8Jtub5gx90ujHNcHehGNiaMIEfWPgEaPeu+5WUARFJok4zQJ8KaXRBQVxpmXNkTEngKFuKFn7MvEgBjrA==}
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -2098,7 +2098,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@imacrayon/alpine-ajax@0.12.6': {}
+  '@imacrayon/alpine-ajax@0.12.7': {}
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
