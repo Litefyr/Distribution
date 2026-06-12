@@ -50,7 +50,7 @@
     "alpinejs": "^3.15.8",
     "alpinejs-textarea-grow": "^1.0.5",
     "concurrently": "^10.0.3",
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.1",
     "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.4",
