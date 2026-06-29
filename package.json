@@ -31,7 +31,7 @@
     "carbon-pipeline": "^0.2.4",
     "colorjs.io": "^0.5.2",
     "cssnano": "^8.0.1",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.16",
     "postcss-import": "^16.1.0",
     "postcss-reporter": "^7.1.0",
     "postcss-sort-media-queries": "^6.6.2",
